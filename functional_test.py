@@ -8,6 +8,7 @@ except Exception as ex:
 else: 
     print('ok')
 finally:
-    assert 'Django' in browser.title
+    assert 'To-Do' in browser.title, "Browser title is:" + browser.title
+
 
 
